@@ -19,10 +19,9 @@ customerSelect.onshow = function() {
             let message = ""
             for (i = 0; i < results.length; i++)
                 message = message + results[i][1] + "\n"
-            txtACustomers.value = message
+            txtaCustomers.value = message
         } 
 
     } else 
         lblMessage.value = "Error code: " + req.status
-}
 }
