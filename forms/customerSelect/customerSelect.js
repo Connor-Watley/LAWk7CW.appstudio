@@ -12,6 +12,7 @@ customerSelect.onshow = function() {
 
     if (req.status == 200) { 
         results = JSON.parse(req.responseText)
+        console.log(`the results are : \n ${results}`)
         if (results.length == 0)
             lblMessage.value = "There are no customers in the database."
         else {
