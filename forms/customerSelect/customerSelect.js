@@ -3,7 +3,7 @@ let query = ""
 let results = []
 let pw = "ShawNAnDGuSFroMTVShoWPsycH" 
 let netID = "cow56739"
-
+let customerData= []
 
 
 customerSelect.onshow = function() {
