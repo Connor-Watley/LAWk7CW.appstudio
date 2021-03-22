@@ -41,6 +41,14 @@
             "addCustomer",
             "addCustomer.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "customerUpdate",
+            "customerUpdate.json"
+          ]
         }
       ],
       "configxml": null,
@@ -62,7 +70,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "addCustomer",
+      "firstform": "customerUpdate",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
